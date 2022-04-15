@@ -1,0 +1,59 @@
+.hero {
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro {
+  margin-bottom: 100px;
+}
+
+.intro .greeting {
+  font-size: 1.5em;
+  color: #2E6F95;
+}
+
+.intro .name {
+  font-size: 7em;
+  font-weight: 400;
+}
+
+.intro .iam {
+  font-size: 4em;
+  color: #888;
+}
+
+.intro .iam span {
+  font-style: italic;
+  color: #892B64;
+}
+
+.contact-btn {
+  outline: none;
+  border: 1px solid #2E6F95;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 15px 20px;
+}
+
+.contact-btn a,
+.contact-btn a:hover {
+  font-size: 1.5em;
+  color: #2E6F95;
+}
+
+.contact-btn:hover {
+  background-color: rgba(46, 111, 149, 0.1);
+}
+
+@media (max-width: 468px) {
+  .intro .greeting, 
+  .intro .iam {
+    font-size: 30px;
+  }
+
+  .intro .name {
+    font-size: 60px;
+  }
+}

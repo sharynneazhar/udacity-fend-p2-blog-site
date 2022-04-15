@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('header.css');
+@import url('hero.css');
+@import url('featured.css');
+@import url('footer.css');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+}
+
+a:hover {
+  color: #888;
+}
+
+figcaption {
+  color: #888;
+  font-style: italic;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1080px;
+  min-height: calc(100vh - 265px);
+  display: flex;
+  flex-direction: column;
+  margin: 80px auto;
+  padding: 0 50px;
+}
+
+@media (min-width: 1100px) {
+  .container {
+    padding: 0;
+  }
+}
